@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Taha Mustafa</title>
+</head>
+<body>
+    
+    <header class="header" id="header">
+        <nav class="container">
+            <a href="#home" class="logo">Taha Mustafa</a>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Start Home Section -->
+    <section class="home" id="home">
+        <div class="overlay"></div>
+        <div class="intro container">
+            <h1>Hi there,</h1>
+            <h2>This is <span>Taha Mustafa</span></h2>
+            <p>Frontend Developer, love Designing & Making Interactive Websites</p>
+        </div>
+    </section>
+    <!-- End Start Home Section -->
+
+    <!-- Start About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-left">
+                    <img width="500px" height="600px" src="images/7.jpg" alt="">
+                </div>
+                <div class="about-right">
+                    <h1>This <span class="span">Sec</span> Will Be About Me:</h1>
+                    <p>My Name Is <span class="span">Taha Mustafa</span>, Frontend Web Developer, From Luxor, Egypt.</p>
+
+                    <ul class="tabs">
+                        <li class="active" data-content=".first">Skills</li>
+                        <li data-content=".second">Others</li>
+                    </ul>
+                    
+                    <div class="content">
+                        <div class="first">
+                            <h2>UI/UX Designer</h2>
+                            <p>Designing Interactive Web Applications</p>
+                            <h2>Web Developer</h2>
+                            <p>Web Applications Development</p>
+                        </div>
+                        <div class="second">
+                            <h2>Languages</h2>
+                            <p>Keen On Learning New Languages & Different Cultures</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start Services Section -->
+    <section id="services">
+        <div class="container">
+            <h1>My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et nulla optio,
+                        fuga quos mollitia eaque earum, sint veniam accusantium rem perferendis
+                        laboriosam perspiciatis quisquam dolorem ipsam repellendus. Deleniti, quas.
+                        </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et nulla optio,
+                        fuga quos mollitia eaque earum, sint veniam accusantium rem perferendis
+                        laboriosam perspiciatis quisquam dolorem ipsam repellendus. Deleniti, quas.
+                        </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h2>Competitive Programmer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et nulla optio,
+                        fuga quos mollitia eaque earum, sint veniam accusantium rem perferendis
+                        laboriosam perspiciatis quisquam dolorem ipsam repellendus. Deleniti, quas.
+                        </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Languages</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et nulla optio,
+                        fuga quos mollitia eaque earum, sint veniam accusantium rem perferendis
+                        laboriosam perspiciatis quisquam dolorem ipsam repellendus. Deleniti, quas.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- Start Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> tahamu222018@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 01157538122</p>
+                    <ul class="socials">
+                        <a href="https://www.linkedin.com/in/taha-mustafa-42a435235/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/Taha_Mustafa478" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    </ul>
+                </div>
+                <div class="right">
+                    <form onsubmit="event.preventDefault(); validation()">
+                        <input id="name" type="text" name="Name" placeholder="Your Name" required>
+                        <input id="email" type="email" name="Email" placeholder="Your Email" required>
+                        <textarea id="msg" name="Message" rows="7" placeholder="Tell Me Your Idea..." required></textarea>
+                        <button type="submit">Submit</button>
+                        <p id="done"></p>
+                    </form>
+                </div>
+            </div>
+            <i class="fa-solid fa-arrow-up arr-up"></i>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Start The Last Section -->
+    <section class="the-end">
+        <div class="last-info container">
+            <p>Copyright &copy; 2023 by Taha Mustafa, All Rights Reserved.</p>
+        </div>
+    </section>
+    <!-- End The Last Section -->
+
+    <script src="script.js"></script>
+</body>
+</html>
