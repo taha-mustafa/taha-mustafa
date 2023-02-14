@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/myFramework.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap"
+    rel="stylesheet"> 
     <title>Taha Mustafa</title>
 </head>
 <body>
     
     <header class="header" id="header">
         <nav class="container">
-            <a href="#home" class="logo">Taha Mustafa</a>
-            <ul class="navbar">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <a href="#home" class="logo cl-white">Taha Mustafa</a>
+            <ul class="main-nav">
+                <li><a class="cl-white" href="#home">Home</a></li>
+                <li><a class="cl-white" href="#about">About</a></li>
+                <li><a class="cl-white" href="#services">Services</a></li>
+                <li><a class="cl-white" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -26,9 +35,9 @@
     <section class="home" id="home">
         <div class="overlay"></div>
         <div class="intro container">
-            <h1>Hi there,</h1>
-            <h2>This is <span>Taha Mustafa</span></h2>
-            <p>Frontend Developer, love Designing & Making Interactive Websites</p>
+            <h1 class="cl-white">Hi there,</h1>
+            <h2 class="cl-white">This is <span>Taha Mustafa</span></h2>
+            <p class="cl-white">Frontend Developer, love Designing & Making Interactive Websites</p>
         </div>
     </section>
     <!-- End Start Home Section -->
@@ -38,27 +47,27 @@
         <div class="container">
             <div class="row">
                 <div class="about-left">
-                    <img width="500px" height="600px" src="images/7.jpg" alt="">
+                    <img src="images/about.jpg" alt="">
                 </div>
                 <div class="about-right">
-                    <h1>This <span class="span">Sec</span> Will Be About Me:</h1>
-                    <p>My Name Is <span class="span">Taha Mustafa</span>, Frontend Web Developer, From Luxor, Egypt.</p>
+                    <h1 class="cl-white">This <span class="span">Sec</span> Will Be About Me:</h1>
+                    <p class="cl-white">My Name Is <span class="span">Taha Mustafa</span>, Frontend Web Developer, From Luxor, Egypt.</p>
 
                     <ul class="tabs">
-                        <li class="active" data-content=".first">Skills</li>
-                        <li data-content=".second">Others</li>
+                        <li class="active cl-white" data-content=".first">SKILLS</li>
+                        <li data-content=".second" class="cl-white">FAV</li>
                     </ul>
                     
                     <div class="content">
                         <div class="first">
-                            <h2>UI/UX Designer</h2>
-                            <p>Designing Interactive Web Applications</p>
-                            <h2>Web Developer</h2>
-                            <p>Web Applications Development</p>
+                            <h2 class="cl-white">UI/UX Designer</h2>
+                            <p class="cl-white">Designing Interactive Web Applications</p>
+                            <h2 class="cl-white">Web Developer</h2>
+                            <p class="cl-white">Web Applications Development</p>
                         </div>
                         <div class="second">
-                            <h2>Languages</h2>
-                            <p>Keen On Learning New Languages & Different Cultures</p>
+                            <h2 class="cl-white">Languages</h2>
+                            <p class="cl-white">Keen On Learning New Languages & Different Cultures</p>
                         </div>
                     </div>
                 </div>
@@ -68,38 +77,38 @@
     <!-- End About Section -->
 
     <!-- Start Services Section -->
-    <section id="services">
+    <section class="services" id="services">
         <div class="container">
-            <h1>My Services</h1>
+            <h1 class="cl-white">My Services</h1>
             <div class="services-list">
                 <div>
-                    <i class="fa-brands fa-sketch"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et nulla optio,
+                    <i class="fa-brands fa-sketch cl-white"></i>
+                    <h2 class="cl-white">Web Design</h2>
+                    <p class="cl-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et nulla optio,
                         fuga quos mollitia eaque earum, sint veniam accusantium rem perferendis
                         laboriosam perspiciatis quisquam dolorem ipsam repellendus. Deleniti, quas.
                         </p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Development</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et nulla optio,
+                    <i class="fa-solid fa-code cl-white"></i>
+                    <h2 class="cl-white">Web Development</h2>
+                    <p class="cl-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et nulla optio,
                         fuga quos mollitia eaque earum, sint veniam accusantium rem perferendis
                         laboriosam perspiciatis quisquam dolorem ipsam repellendus. Deleniti, quas.
                         </p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-brain"></i>
-                    <h2>Competitive Programmer</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et nulla optio,
+                    <i class="fa-solid fa-brain cl-white"></i>
+                    <h2 class="cl-white">Competitive Programmer</h2>
+                    <p class="cl-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et nulla optio,
                         fuga quos mollitia eaque earum, sint veniam accusantium rem perferendis
                         laboriosam perspiciatis quisquam dolorem ipsam repellendus. Deleniti, quas.
                         </p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-globe"></i>
-                    <h2>Languages</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et nulla optio,
+                    <i class="fa-solid fa-globe cl-white"></i>
+                    <h2 class="cl-white">Languages</h2>
+                    <p class="cl-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et nulla optio,
                         fuga quos mollitia eaque earum, sint veniam accusantium rem perferendis
                         laboriosam perspiciatis quisquam dolorem ipsam repellendus. Deleniti, quas.
                         </p>
@@ -110,16 +119,16 @@
     <!-- End Services Section -->
 
     <!-- Start Contact Section -->
-    <section id="contact">
+    <section class="contact" id="contact">
         <div class="container">
+            <h1 class="cl-white">Contact Me</h1>
             <div class="row">
                 <div class="left">
-                    <h1>Contact Me</h1>
-                    <p><i class="fa-solid fa-envelope"></i> tahamu222018@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i> 01157538122</p>
+                    <p class="cl-white"><i class="fa-solid fa-envelope cl-white"></i> tahamu222018@gmail.com</p>
+                    <p class="cl-white"><i class="fa-solid fa-phone cl-white"></i> 01157538122</p>
                     <ul class="socials">
-                        <a href="https://www.linkedin.com/in/taha-mustafa-42a435235/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://twitter.com/Taha_Mustafa478" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="cl-white" href="https://www.linkedin.com/in/taha-mustafa-42a435235/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a class="cl-white" href="https://twitter.com/Taha_Mustafa478" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                     </ul>
                 </div>
                 <div class="right">
@@ -128,7 +137,7 @@
                         <input id="email" type="email" name="Email" placeholder="Your Email" required>
                         <textarea id="msg" name="Message" rows="7" placeholder="Tell Me Your Idea..." required></textarea>
                         <button type="submit">Submit</button>
-                        <p id="done"></p>
+                        <p id="done" class="cl-white"></p>
                     </form>
                 </div>
             </div>
@@ -138,11 +147,11 @@
     <!-- End Contact Section -->
 
     <!-- Start The Last Section -->
-    <section class="the-end">
+    <footer class="the-end">
         <div class="last-info container">
-            <p>Copyright &copy; 2023 by Taha Mustafa, All Rights Reserved.</p>
+            <p class="cl-white">Copyright &copy; 2023 by Taha Mustafa, All Rights Reserved.</p>
         </div>
-    </section>
+    </footer>
     <!-- End The Last Section -->
 
     <script src="script.js"></script>

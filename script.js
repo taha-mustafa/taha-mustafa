@@ -1,11 +1,6 @@
 // Ordering The Settings
-let homeLanding = document.querySelector('.home');
-const imgsArr = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"];
-
-setInterval(() => {
-    let randomImg = Math.floor(Math.random() * imgsArr.length);
-    homeLanding.style.backgroundImage = 'url("images/' + imgsArr[randomImg] + '")';
-}, 7000);
+let homeLanding = document.querySelector(".home");
+homeLanding.style.backgroundImage = "url('../images/back2.jpg')";
 
 // ////////////////////////////////////////////////////
 let tabs = document.querySelectorAll('.tabs li');
@@ -56,7 +51,6 @@ const hashDone = document.querySelector("#done");
 
 function validation() {
     let error = false;
-
     if (!error) {
         hashDone.innerText = "Done!";
     }
