@@ -54,12 +54,12 @@
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Tailwind-7952B3?style=flat&logo=tailwind&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Sass-7952B3?style=flat&logo=sass&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/React-7952B3?style=flat&logo=react&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Node-7952B3?style=flat&logo=node&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Mongodb-7952B3?style=flat&logo=mongodb&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Express-7952B3?style=flat&logo=express&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-7952B3?style=flat&logo=tailwind&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-7952B3?style=flat&logo=sass&logoColor=white)
+![React](https://img.shields.io/badge/React-7952B3?style=flat&logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Nodejs-7952B3?style=flat&logo=nodejs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/Mongodb-7952B3?style=flat&logo=mongodb&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express-7952B3?style=flat&logo=express&logoColor=white)
 
 </div>
 
